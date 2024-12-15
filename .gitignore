@@ -1,0 +1,8 @@
+.idea/
+*.xlsx
+*.json
+output/
+venv
+old_files/
+logs/
+*.log
