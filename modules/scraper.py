@@ -16,6 +16,7 @@ def scrap_page(page: int, shard: str, query: str, low_price: int, top_price: int
           f'&sort=popular&spp=0' \
           f'&{query}' \
           f'&discount={discount}'
+    logger.info(f'Получение данных по ссылке: {url}')
     r = requests.get(url, headers=headers)
     if r.status_code != 200:
         logger.error(f'Ошибка HTTP: {r.status_code}')

@@ -23,3 +23,6 @@
             'reviewRating': рейтинг по отзывам,
             'promoTextCard': промо текст карточки,
             'promoTextCat': промо текст категории
+
+
+```venv\Scripts\activate```
